@@ -11,7 +11,7 @@
     }, 
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-      "skipLibCheck": true,
-  
+      "noEmitOnError": false,
+    "skipLibCheck": true
   }
 }
