@@ -56,7 +56,7 @@ export const ExpenseProvider: React.FC<{ children: React.ReactNode }> = ({ child
   const { toast } = useToast();
 
   const api = axios.create({
-    baseURL: 'https://expense-7tiz.onrender.com',
+    baseURL: 'https://expense-7tiz.onrender.com/api',
     headers: {
       'Authorization': `Bearer ${token}`
     }
